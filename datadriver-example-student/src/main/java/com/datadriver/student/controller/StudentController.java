@@ -81,7 +81,6 @@ public class StudentController {
             model.addAttribute(FinalParamer.MESSAGE, e.loadErrorMessageByCode(request));
             model.addAttribute(FinalParamer.RESULT, ResultEnum.FAIL.getValue());
         }
-        System.out.println("输出");
         return "student/edit_student";
     }
 
@@ -138,7 +137,7 @@ public class StudentController {
         //redis操作
 //        redisUtils.set("name", pageList);
 //        System.out.println(redisUtils.get("name"));
-
+        System.out.println("手粗");
         return pageList;
     }
 
