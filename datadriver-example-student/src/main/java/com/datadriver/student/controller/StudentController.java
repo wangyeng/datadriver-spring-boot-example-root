@@ -138,6 +138,7 @@ public class StudentController {
         //redis操作
 //        redisUtils.set("name", pageList);
 //        System.out.println(redisUtils.get("name"));
+
         return pageList;
     }
 
