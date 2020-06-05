@@ -81,6 +81,7 @@ public class StudentController {
             model.addAttribute(FinalParamer.MESSAGE, e.loadErrorMessageByCode(request));
             model.addAttribute(FinalParamer.RESULT, ResultEnum.FAIL.getValue());
         }
+        System.out.println("输出");
         return "student/edit_student";
     }
 
